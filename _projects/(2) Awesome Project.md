@@ -1,20 +1,53 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: Br0ther Ey3
+tools: [Python, Bash]
+image: https://github.com/gsvprharsha/Br0ther_Ey3/blob/main/imgs/repository-open-graph-template%20(1).png
+description: Br0ther Ey3 is an open-source OSINT tool, that can be used to check for an individual's account on some of the most popular Social Media websites on the internet. It uses status codes to determine whether there is an account with the username that is provided to it; on the website.
 ---
 
-# The Movies Project
+![Br0ther](https://raw.githubusercontent.com/gsvprharsha/Br0ther_Ey3/main/imgs/Br0ther_Ey3.png)
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+# What is Br0ther Ey3
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+Br0ther Ey3 is an **open-source OSINT tool**, that can be used to **check for an individual's account** on some of the most popular **Social Media websites** on the internet. It uses status codes to determine whether there is an account with the username that is provided to it; on the website.
 
-## Search Movies
+## Setup
+Setting up **Br0ther Ey3** is very simple. You can use it directly from the directory **or** use the `setup.sh` program to install it in such a way that you can access it from anywhere in the system.
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+```
+git clone https://github.com/gsvprharsha/Br0ther_Ey3.git
+chmod +x setup.sh
+sudo ./setup.sh
+```
+
+## Usage
+To use Br0ther Ey3, execute the following command in your terminal. Just replace `<username>` with the username of your choice.
+```
+broeye -u <username>
+```
+If you are using it directly from the directory without installing it with `setup.sh` then, you can use the following command to continue using Br0ther Ey3.
+```
+python3 broeye -u <username>
+```
+## Optional Arguments 
+```
+usage: broeye.py [-h] --username USERNAME [--T10] [--t T] [--fbset] [--tiktok] [--tiktok_with_profile_pic]
+
+Br0ther Ey3 OSINT Tool v0.0.2
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --username USERNAME   Profile Username
+  --T10                 Scans only Top 10 websites from list
+  --t T                 Take custom number of lists
+  --fbset               Scans the websites owned by Facebook
+  --tiktok, --tt        Gather information only on tiktok only
+  --tiktok_with_profile_pic, --ttwp
+                        Tiktok OSINT that also collects the user's profile picture
+
+Embrace The Data :)
+```
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
+{% include elements/button.html link="https://github.com/gsvprharsha/Br0ther_Ey3" text="Source Code" %}
 </p>
