@@ -1,0 +1,15 @@
+- name: Docker
+  percentage: 90
+  color: info
+
+- name: AWS/Azure
+  percentage: 90
+  color: info
+
+- name: Wordpress
+  percentage: 90
+  color: info
+
+- name: Wix
+  percentage: 90
+  color: info

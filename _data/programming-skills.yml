@@ -1,0 +1,23 @@
+- name: Python
+  percentage: 90
+  color: danger
+
+- name: Bash
+  percentage: 80
+  color: danger
+
+- name: Latex
+  percentage: 90
+  color: danger
+
+- name: C/C++
+  percentage: 70
+  color: secondary
+
+- name: Markdown
+  percentage: 90
+  color: secondary
+
+- name: MySQL
+  percentage: 70
+  color: secondary
