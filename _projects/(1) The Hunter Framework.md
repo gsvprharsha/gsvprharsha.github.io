@@ -1,7 +1,7 @@
 ---
 name: The Hunter Framework
 tools: [Python 3.0, Bash]
-image: https://www.wallpapercave.com/w/wp5709451
+image: https://wallpapercave.com/wp/wp5709451.jpg
 description: This project aims to provide Ethical Hackers, Pentesters with an All in One framework that can be used for conducting pentests!
 ---
 
@@ -19,7 +19,7 @@ Hunter is a penetration testing framework for ethical hackers to use in their te
   6. Wordlist Generator
 
 # Preview
-![preview](https://github.com/gsvprharsha/Hunter-Framework/blob/main/imgs/Hunter%20Welcome%20Screen.png)
+<img src="https://github.com/gsvprharsha/Hunter-Framework/blob/main/imgs/Hunter%20Welcome%20Screen.png" alt="Hunter Framework Preview">
 
 <p class="text-center">
 {% include elements/button.html link="https://github.com/gsvprharsha/Hunter-Framework" text="Source Code" %}
