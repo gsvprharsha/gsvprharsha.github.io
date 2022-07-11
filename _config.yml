@@ -6,7 +6,7 @@ description         : >-
                       only sometimes though XD.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : gsvprharsha/gsvprharsha.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+remote_theme        : YoussefRaafatNasry/portfolYOU@2.3.0
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -20,13 +20,12 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
   name              : G.S.V. Prharsha
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : https://github.com/gsvprharsha/gsvprharsha/blob/main/profile.png
 # behance           : your_username
 # dribbble          : your_username
   email             : gsvprharsha@gmail.com
@@ -57,8 +56,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
 
 
 ### Disqus ###
@@ -90,11 +87,6 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
