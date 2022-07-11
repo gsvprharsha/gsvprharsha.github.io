@@ -14,7 +14,7 @@ Br0ther Ey3 is an **open-source OSINT tool**, that can be used to **check for an
 ## Setup
 Setting up **Br0ther Ey3** is very simple. You can use it directly from the directory **or** use the `setup.sh` program to install it in such a way that you can access it from anywhere in the system.
 
-```
+```bash
 git clone https://github.com/gsvprharsha/Br0ther_Ey3.git
 chmod +x setup.sh
 sudo ./setup.sh
@@ -22,15 +22,15 @@ sudo ./setup.sh
 
 ## Usage
 To use Br0ther Ey3, execute the following command in your terminal. Just replace `<username>` with the username of your choice.
-```
+```bash
 broeye -u <username>
 ```
 If you are using it directly from the directory without installing it with `setup.sh` then, you can use the following command to continue using Br0ther Ey3.
-```
+```bash
 python3 broeye -u <username>
 ```
 ## Optional Arguments 
-```
+```python
 usage: broeye.py [-h] --username USERNAME [--T10] [--t T] [--fbset] [--tiktok] [--tiktok_with_profile_pic]
 
 Br0ther Ey3 OSINT Tool v0.0.2
