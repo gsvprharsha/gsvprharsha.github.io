@@ -88,9 +88,14 @@ That's it, we completed the port scanner:smile:!!!
 
 This is a very basic port scanner and it can be imporved if you wish to.
 
+Thanks for readin it this far :handshake:
+
+Tomorrow I will be posting a blog on how to create your very own **Port Scan Detector**
+
 # Resources
-<a href="https://docs.python.org/3/library/socket.html">Socket Module</a>
-<a href="https://pypi.org/project/IPy/">IPy Module</a>
-<a href="https://pypi.org/project/termcolor/">Termcolor Module</a>
+<a href="https://docs.python.org/3/library/socket.html">Socket Module</a><br>
+<a href="https://pypi.org/project/IPy/">IPy Module</a><br>
+<a href="https://pypi.org/project/termcolor/">Termcolor Module</a><br>
+
 
 {% include elements/button.html link="https://github.com/gsvprharsha/port-scanner" text="Source Code" %}
