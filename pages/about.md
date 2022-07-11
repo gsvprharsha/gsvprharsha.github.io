@@ -5,10 +5,11 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# **A little bit about Myself**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I am a computer science undergraduate from VIT Bhopal; Pursuing Cyber Security specialization. I am also a researcher in the field of Nature Inspired Cyber Security (NICS). Some of my interests are reverse engineering and malware analysis, cloud security, and OSINT. I am a CTF Player on the platforms of TryHackMe and CTF. I write blogs covering programming, OSINT,  reverse engineering and malware analysis. 
+{% include elements/button.html link="https://twitter.com/gsvprharsha" text="Twitter" %}
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
