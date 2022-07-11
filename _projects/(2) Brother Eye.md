@@ -2,7 +2,7 @@
 name: Br0ther Ey3
 tools: [Python, Bash]
 image: https://raw.githubusercontent.com/gsvprharsha/Br0ther_Ey3/main/imgs/BR0THER%20EY3.png
-description: Br0ther Ey3 is an open-source OSINT tool, that can be used to check for an individual's account on some of the most popular Social Media websites on the internet. It uses status codes to determine whether there is an account with the username that is provided to it; on the website.
+description: An open-source OSINT tool, that can check for an individual's social media accounts on the internet, using status codes.
 ---
 
 ![Br0ther](https://raw.githubusercontent.com/gsvprharsha/Br0ther_Ey3/main/imgs/Br0ther_Ey3.png)
