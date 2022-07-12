@@ -5,7 +5,7 @@ style: border
 color: primary
 description: A tutorial to build your very own Port Scanner using Python.
 ---
-**Source:** [Github](https://github.com/gsvprharsha/port-scanner)
+**Source:**  [Github](https://github.com/gsvprharsha/port-scanner)
 
 In this blog I will be showing, how you can create your very **own port scanner in just 41 lines of code**. This tutorial will be very simple and straight. I'll leave anything that I think is too complex. First, let's open an IDE for this. I am using **VS Code** in Kali Linux for this tutorial. Once you open your IDE; create a new file with any name, but make sure to put the extension as **.py**
 
