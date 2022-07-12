@@ -53,7 +53,7 @@ def check_ip(ip):
         return socket.gethostbyname(ip)
 ```
 
-The scan function takes the two above mentioned parameters, and first check the ip using the ```check_ip``` function. This function checks if the given target input is an IP address or not. If it is an IP address; it will return back the address. But, if the traget givem is an ***URL***, then we use the ```socket``` module's inbuilt function; called ```.gethostbyname()``` to get the IP address of the URL and returns it to the ```converted_ip``` function. 
+The scan function takes the two above mentioned parameters, and first check the ip using the ```check_ip``` function. This function checks if the given target input is an IP address or not. If it is an IP address; it will return back the address. But, if the target given is an ***URL***, then we use the ```socket``` module's inbuilt function; called ```.gethostbyname()``` to get the IP address of the URL and returns it to the ```converted_ip``` function. 
 
 Once done, we print the statement that the scanning of the target is initiated. And For the port in range of 1 - ```port_range (given by user)```, we initiate a function called ```scan_port()``` function.
 
@@ -80,15 +80,15 @@ def scan_port(ipaddress, port):
 
 In this function we declare a variable ```sock``` which is equal to the ```socket()``` function that comes inbuilt with the socket module. Then, we set the timeout to 0.5 seconds. This is crucial because if we do not do this; the code will take a long time scanning each and every port. (You can set the timeout to a much higher value if you wish to)
 
-And now, we connect to the IP address on that particular port. And then we try to get the banner of the response using the ```get_banner()``` function. And if we recieve the banner we print that the port is open and we print the banner adjacent to it. And if we do not get any banner then, we just say the port is open. The ports in both these cases are open; this is so, because we recieved a response from the port. 
+And now, we connect to the IP address on that particular port. And then we try to get the banner of the response using the ```get_banner()``` function. And if we receive the banner we print that the port is open and we print the banner adjacent to it. And if we do not get any banner then, we just say the port is open. The ports in both these cases are open; this is so, because we received a response from the port. 
 
 If we do not have an open port, then we say ```pass``` without printing any statement. Though you may print the statement that the port is closed. But it may confuse the user, so we have written pass in this case.
 
 That's it, we completed the port scanner:smile:!!!
 
-This is a very basic port scanner and it can be imporved if you wish to.
+This is a very basic port scanner and it can be improved if you wish to.
 
-Thanks for readin it this far :handshake:
+Thanks for reading it this far :handshake:
 
 Tomorrow I will be posting a blog on how to create your very own **Port Scan Detector**
 
