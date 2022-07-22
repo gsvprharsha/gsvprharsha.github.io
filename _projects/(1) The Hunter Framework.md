@@ -1,6 +1,6 @@
 ---
 name: The Hunter Framework
-tools: [Python 3.0, Bash, Ethical Hacking]
+tools: [Python 3.0, Bash]
 image: https://wallpapercave.com/wp/wp5709451.jpg
 description: An All in One Pentesting Framework for Ethical Hackers & Penetration Testers
 ---
