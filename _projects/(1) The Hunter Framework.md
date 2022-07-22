@@ -5,18 +5,13 @@ image: https://wallpapercave.com/wp/wp5709451.jpg
 description: An All in One Pentesting Framework for Ethical Hackers & Penetration Testers
 ---
 
-<p align="center">
-  <img alt="Logo" src="https://github.com/gsvprharsha/Hunter-Framework/blob/main/imgs/Hunter-Framework.png"><br><br>
-  <img alt="Maintained" src="https://img.shields.io/maintenance/yes/2022?style=for-the-badge">
-  <img alt="Languages" src="https://img.shields.io/github/languages/count/gsvprharsha/Hunter-Framework?style=for-the-badge">
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/gsvprharsha/Hunter-Framework?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/github/license/gsvprharsha/Hunter-Framework?color=light&style=for-the-badge">
-</p>
+![Hunter](https://github.com/gsvprharsha/Hunter-Framework/blob/main/imgs/Hunter-Framework.png)
 
 ## Important Note
-<b>This tool is for educational and ethical practices only. The developers are not responsible if the tool is misused by an individual</b>
+This tool is for educational and ethical practices only. The developers are not responsible if the tool is misused by an individual
+
 ## About Hunter
-<b>Hunter is a penetration testing framework for ethical hackers to use in their tests. As of now, Hunter consists of 5 different tools for the user. The tools are listed as follows:
+Hunter is a penetration testing framework for ethical hackers to use in their tests. As of now, Hunter consists of 5 different tools for the user. The tools are listed as follows:
   <li>Port Scanner</li>
   <li>SSH Bruteforce</li>
   <li>Backdoor Manager</li>
@@ -24,7 +19,7 @@ description: An All in One Pentesting Framework for Ethical Hackers & Penetratio
   <li>Network Scanner</li>
   <li>Wordlist Generator</li><br>
   
-More tools are to be added very soon. </b>
+More tools are to be added very soon.
 
 ## Features (as of 31/01/2022)
 <li>Access it from anywhere by typing "sudo hunter"</li>
@@ -36,9 +31,7 @@ More tools are to be added very soon. </b>
 
 ## Tested On
 <p align="center">
-  <img alt="Kali Linux" src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white">
-  <img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white">
-  <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img alt="Kali Linux" src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"><img alt="Debian" src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
 </p>
 
 
@@ -66,7 +59,6 @@ chmod +x setup.sh
 ```
 
 <li>Now run the file</li><br>
-
 ```
 ./setup.sh
 ```
