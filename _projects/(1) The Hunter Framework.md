@@ -4,7 +4,7 @@ tools: [Python 3.0, Bash]
 image: https://wallpapercave.com/wp/wp5709451.jpg
 description: An All in One Pentesting Framework for Ethical Hackers & Penetration Testers
 ---
-![Hunter](https://raw.githubusercontent.com/gsvprharsha/Hunter/main/imgs/Hunter-Framework.png)
+![Hunter](https://raw.githubusercontent.com/gsvprharsha/Hunter-Framework/main/imgs/Hunter-Framework.png)
 
 ## Important Note
 This tool is for educational and ethical practices only. The developers are not responsible if the tool is misused by an individual
