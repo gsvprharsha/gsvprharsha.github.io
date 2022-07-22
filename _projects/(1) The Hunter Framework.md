@@ -6,6 +6,7 @@ description: An All in One Pentesting Framework for Ethical Hackers & Penetratio
 ---
 ![Hunter](https://raw.githubusercontent.com/gsvprharsha/Hunter-Framework/main/imgs/Hunter-Framework.png)
 
+
 ## Important Note
 This tool is for educational and ethical practices only. The developers are not responsible if the tool is misused by an individual
 
@@ -70,10 +71,11 @@ chmod +x setup.sh
 sudo hunter
 ```
 
-<li>You should be greeted with the following screen</li><br>
+- You should be greeted with the following screen
+
 ![Welcome](https://raw.githubusercontent.com/gsvprharsha/Hunter-Framework/main/imgs/Hunter%20Welcome%20Screen.png)
 
-<li>Now you may choose your option and hit enter, which would ask you input regaring the target, gateway,...etc</li>
+- Now you may choose your option and hit enter, which would ask you input regaring the target, gateway,...etc
 
 ## What to expect in future updates
 <li>A anonymizing script</li>
