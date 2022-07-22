@@ -71,9 +71,7 @@ sudo hunter
 ```
 
 <li>You should be greeted with the following screen</li><br>
-<p align="center">
-  <img alt="Welcome Screen" src="https://github.com/gsvprharsha/Hunter-Framework/blob/main/imgs/Hunter%20Welcome%20Screen.png">
-</p>
+![Welcome Screen](https://raw.githubusercontent.com/gsvprharsha/Hunter-Framework/main/imgs/Hunter%20Welcome%20Screen.png)
 
 <li>Now you may choose your option and hit enter, which would ask you input regaring the target, gateway,...etc</li>
 
